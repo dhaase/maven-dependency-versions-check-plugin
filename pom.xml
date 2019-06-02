@@ -170,6 +170,7 @@
   <build>
     <pluginManagement>
       <plugins>
+<!--
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-toolchains-plugin</artifactId>
@@ -183,6 +184,7 @@
             </toolchains>
           </configuration>
         </plugin>
+-->
 
         <plugin>
           <groupId>org.codehaus.plexus</groupId>
@@ -226,6 +228,7 @@
     </pluginManagement>
 
     <plugins>
+<!--
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-toolchains-plugin</artifactId>
@@ -237,6 +240,7 @@
           </execution>
         </executions>
       </plugin>
+-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
